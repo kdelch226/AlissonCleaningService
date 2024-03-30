@@ -1,0 +1,13 @@
+<div class="login-container">
+    <form class="login-form">
+      <h1>Bienvenu a AlisonCleaningService</h1>
+      <p>veuillez vous connectez</p>
+      <div class="input-group">
+        <input type="text" [(ngModel)]="loginObj.userName" id="username" name="userName" placeholder="Username" required>
+      </div>
+      <div class="input-group">
+        <input type="password" [(ngModel)]="loginObj.passWord" id="password" name="passWord" placeholder="Password" required>
+      </div>
+      <button type="button" (click)="onLogin()">Login</button>
+    </form>
+  </div>

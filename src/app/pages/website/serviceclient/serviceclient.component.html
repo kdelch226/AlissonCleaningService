@@ -1,0 +1,26 @@
+<div class="acceuil-services text-center">
+  <div class="presentation">
+    <div class="presentation-content">
+      <h2>Des Services de Nettoyage et d'Entretien de Qualité Professionnelle au Burkina Faso </h2>
+    </div>
+  </div>
+</div>
+
+<div class="serv mx-3">
+  <div class=" navbar-nav">
+    <div *ngFor="let serv of services" class="list-service" >
+      <a (click)="allerVersElement(serv.name.toLowerCase().replace(' ', ''))"
+        class="list-group-item list-group-item-action px-2">{{serv.name}}</a>
+    </div>
+  </div>
+
+  <div class="services-content border shadow p-3 " >
+    <div *ngFor="let serv of services" >
+      <div [id]="serv.name.toLowerCase().replace(' ', '')" class="content">
+        <img class="border p-1 my-3" src="{{serv.image}}" alt="">
+        <h4 class="shadow-sm mt-5 ">{{serv.name}}</h4>
+        <p>{{serv.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

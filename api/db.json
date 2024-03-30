@@ -1,0 +1,118 @@
+{
+    "teamadmin": [
+        {
+            "id": 1,
+            "userName": "Alison226",
+            "mail": "nancykabore@icloud.com",
+            "passWord": "Alisson123"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "name": "Nettoyage professionnel",
+            "description": "Nettoyage de bureaux, maisons ou appartements, usines, magasins, bâtiments publics, centres de santé et autres locaux commerciaux et professionnels.",
+            "image": "chemin/vers/image_nettoyage_professionnel.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Dératisation",
+            "description": "Élimination des rats et des rongeurs nuisibles dans les bâtiments.",
+            "image": "chemin/vers/image_deratisation.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Décontamination",
+            "description": "Élimination des substances nocives ou des contaminants dans les environnements.",
+            "image": "chemin/vers/image_decontamination.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Désinfection de bâtiments",
+            "description": "Désinfection pour éliminer les bactéries, virus et autres agents pathogènes dans les locaux.",
+            "image": "chemin/vers/image_desinfection.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Fourniture de produits et équipements divers",
+            "description": "Vente de produits de nettoyage, fourniture d'équipements de nettoyage et travaux exceptionnels sur demande.",
+            "image": "chemin/vers/image_fourniture.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Jardinage",
+            "description": "Entretien des espaces verts, taille des arbres et des arbustes, tonte de pelouse, désherbage, plantation et entretien des fleurs et des plantes.",
+            "image": "chemin/vers/image_jardinage.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Nettoyage de piscine",
+            "description": "Nettoyage des parois et du fond de la piscine, élimination des débris et des feuilles flottantes, contrôle et ajustement du pH de l'eau, nettoyage des filtres et des skimmers, traitement chimique de l'eau pour maintenir sa clarté et sa propreté.",
+            "image": "chemin/vers/image_nettoyage_piscine.jpg"
+        }
+    ],
+    "valeurs":
+    [
+      {
+        "id": 1,
+        "name": "La satisfaction de nos clients",
+        "description": "Nous mettons tout en œuvre pour comprendre les besoins de nos clients et dépasser leurs attentes à chaque étape de notre prestation de service. Nous sommes dévoués à assurer leur satisfaction à long terme.",
+        "image": "url_image_1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Qualité de services et de produits",
+        "description": "Nous nous engageons à fournir des services et des produits de la plus haute qualité. Nous maintenons des normes élevées de qualité à chaque étape de notre processus, de la sélection des matériaux à la livraison finale.",
+        "image": "url_image_2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Notre engagement écologique",
+        "description": "Nous sommes déterminés à minimiser notre impact sur l'environnement. Nous utilisons des pratiques respectueuses de l'environnement et des produits écologiques dans nos opérations pour contribuer à la préservation de la planète.",
+        "image": "url_image_3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Innovation et amélioration continue",
+        "description": "Nous encourageons l'innovation et nous nous efforçons d'améliorer constamment nos processus et nos services. Nous restons à l'avant-garde de notre industrie en adoptant de nouvelles technologies et en recherchant des moyens d'optimiser nos performances.",
+        "image": "url_image_4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Intégrité et éthique professionnelle",
+        "description": "Nous agissons avec intégrité et éthique dans toutes nos interactions professionnelles. Nous sommes transparents, honnêtes et responsables de nos actions, ce qui renforce la confiance de nos clients et de nos partenaires.",
+        "image": "url_image_5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Respect de la diversité et de l'inclusion",
+        "description": "Nous célébrons la diversité et nous nous engageons à créer un environnement inclusif où chacun est respecté et valorisé. Nous reconnaissons la force de la diversité et nous nous efforçons de créer une culture où chacun peut s'épanouir.",
+        "image": "url_image_6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Responsabilité sociale et communautaire",
+        "description": "Nous sommes déterminés à avoir un impact positif sur nos communautés. Nous soutenons des initiatives sociales et nous nous engageons à contribuer au bien-être de la société par le biais de programmes de responsabilité sociale d'entreprise.",
+        "image": "url_image_7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Nos prix abordables",
+        "description": "Nous proposons des prix compétitifs tout en maintenant la qualité de nos produits et services. Nous cherchons à rendre nos offres accessibles à un large public tout en offrant une valeur exceptionnelle à nos clients.",
+        "image": "url_image_8.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Notre présence sur le territoire",
+        "description": "Nous sommes fiers de notre présence étendue sur le territoire, ce qui nous permet de servir efficacement nos clients dans différentes régions. Notre réseau bien établi garantit une réponse rapide et un service fiable où que vous soyez.",
+        "image": "url_image_9.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Transparence et communication ouverte",
+        "description": "Nous valorisons la transparence et la communication ouverte dans toutes nos interactions. Nous encourageons le partage d'informations et nous sommes disponibles pour répondre aux questions et aux préoccupations de nos clients à tout moment.",
+        "image": "url_image_10.jpg"
+      }
+    ]
+    
+}

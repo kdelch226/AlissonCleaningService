@@ -1,0 +1,29 @@
+.acceuil-propos{
+    background: url(assets/fondacceuil.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+     height: 60vw; 
+    min-height: 500px;
+    max-height: 550px;
+    margin-bottom: 6em;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.presentation{
+    width: 100%;
+    height: 100%;
+    background-color:  #0d6dfd67; /* Couleur verte semi-transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-content{
+    margin: 50px;
+    backdrop-filter: blur(10px);
+}
+

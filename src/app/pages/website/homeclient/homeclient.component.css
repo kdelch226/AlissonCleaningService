@@ -1,0 +1,29 @@
+.acceuil{
+    background: url(assets/fondacceuil.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 60vw; 
+    min-height: 700px;
+    max-height: 750px;
+    margin-bottom: 6em;
+    display: flex;
+    align-items: center;
+}
+
+.acceuil-action{
+
+    backdrop-filter: blur(10px);
+    width:70vw;
+    max-width: 900px;
+    float: left;
+    margin-left: 10vw;
+}
+
+
+@media screen and (max-width:500px) {
+
+.acceuil-action{
+    margin-top: 5em;
+}
+}

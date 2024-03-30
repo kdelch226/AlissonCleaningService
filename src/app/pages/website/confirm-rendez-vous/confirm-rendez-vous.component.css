@@ -1,0 +1,12 @@
+.container{
+    margin-top: 11em;
+    max-width: 600px;
+}
+.presentation{
+    width: 100vw;
+    height: 110px;
+    background-color:  #0d6dfd84; /* Couleur verte semi-transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

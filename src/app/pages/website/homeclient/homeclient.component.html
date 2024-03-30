@@ -1,0 +1,44 @@
+<div class="acceuil ">
+    <div class="acceuil-action">
+        <h2>Des Services de Nettoyage et d'Entretien de Qualité Professionnelle au Burkina Faso  </h2>
+        <h6>Découvrez la qualité professionnelle du nettoyage avec Alison Cleaning Services SARL. Nous sommes votre solution pour un environnement propre et sain, que ce soit pour votre entreprise ou votre domicile.</h6>
+        <div>
+            <button type="button" class="btn btn-secondary m-3 ms-0" routerLink="/services">Nos services</button>
+            <button type="button" class="btn btn-primary" routerLink="/rendez-vous">Prendre un rendez-vous</button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid text-center shadow-lg mb-5">
+    <h2 class="pt-5">Nos <span class="text-primary">valeurs</span></h2>
+    <div class="row">
+        <div class="col-lg col-md-6 " *ngFor="let val of values">
+            <app-card [valeur]="val"></app-card>
+        </div>
+    
+<!--
+        <div class="col-lg">
+            <h2> Qualité de services et de produits</h2>
+        </div>
+
+        <div class="col-lg">
+            <h2> Nos prix abordables</h2>
+        </div>
+
+        <div class="col-lg">
+            <h2> Notre engagement écologique</h2>
+        </div>
+
+        <div class="col-lg">
+            <h2> Innovation et amélioration continue</h2>
+        </div>
+
+        <div class="col-lg">
+            <h2> Notre présence sur le territoire</h2>
+        </div>
+        <div class="col-lg">
+            <h2> Transparence et communication ouverte</h2>
+        </div>
+-->
+    </div>
+</div>

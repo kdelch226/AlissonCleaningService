@@ -1,0 +1,23 @@
+
+Admin => Proprietaire
+	ajouter service, confirmer rendez, modifier disponibilite
+
+client => prendre rendez 
+
+
+Siteweb	=>=>=>=>=>
+
+	Admin=>
+		logging/sign-up
+		Acceuil
+		Services
+		A propos
+		disponibilite
+		rendez-vous
+
+
+	client=>
+		Acceuil
+		Services
+		A propos
+		rendez-vous

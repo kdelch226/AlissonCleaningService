@@ -1,0 +1,69 @@
+.acceuil-services{
+    background: url(assets/fondacceuil.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 60vw; 
+    min-height: 500px;
+    max-height: 550px;
+    margin-bottom: 6em;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.presentation{
+    width: 100%;
+    height: 100%;
+    background-color:  #0d6dfd67; /* Couleur verte semi-transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-content{
+    margin: 50px;
+    backdrop-filter: blur(10px);
+}
+
+.services-content{
+    width:65vw;
+    margin-left: 30vw;
+    transform: translateY(-20em);
+  }
+  
+  .services-content img{
+    width: 62vw;
+  }
+  
+  .navbar-nav{
+      position: sticky;
+      top: 11em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.5s ease;
+  }
+  
+
+
+.list-service a{
+    border: 1px solid black;
+    background-color:#0d6dfdcf ;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 29vw;
+    min-height: 3em;
+    max-height: 10em;
+    max-width: 25em;
+    list-style: none;
+    font-weight: bolder;
+    word-wrap: break-word;    
+}
+
+.list-service a:hover{
+    background-color:#0d6dfd ;
+    color: aliceblue;
+}
+

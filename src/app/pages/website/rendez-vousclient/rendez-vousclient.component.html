@@ -1,0 +1,66 @@
+<div class="acceuil-rendez-vous text-center">
+    <div class="presentation">
+        <div class="presentation-content p-5">
+          <h2>Vous voulez discuter davantage? <br> Prenez un rendez vous </h2>
+        </div>
+    </div>
+</div>
+
+<form class="needs-validation " novalidate>
+    <div class="container border shadow" style="margin-bottom: 10em;">
+        <div class="text-center m-3">
+            <h2 >Prenez votre rendez vous maintenant !</h2>
+            <p>Remplissez le formulaire suivant pour confirmer votre rendez-vous</p>    
+        </div>
+        <div class="input-group my-3">
+          <span class="input-group-text" id="basic-addon1">Nom</span>
+          <input type="text" [(ngModel)]="formData.nom" id="nom" name="nom" class="form-control" placeholder="Nom et Prénom" aria-label="Nom" aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon2">Mail</span>
+          <input type="text" [(ngModel)]="formData.mail" id="mail" name="mail"  class="form-control me-3" placeholder="exemple@mail.com" aria-label="E-mail" aria-describedby="basic-addon2">
+      
+          <span class="input-group-text">Téléphone</span>
+          <input type="text" [(ngModel)]="formData.telephone" name="telephone" id="telephone" class="form-control" placeholder="+1 234 567 8910" aria-label="Téléphone">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text">raison du rendez vous</span>
+          <select class="form-select form-select-md" id="objet" name="objet" required [(ngModel)]="formData.objet">
+            <option *ngFor="let servicechoix of servicename" value="{{servicechoix}}">
+              {{servicechoix}}
+            </option>
+          </select>
+        </div>
+        
+        <div class="input-group mb-3">
+          <span class="input-group-text">Budget / mois</span>
+          <input type="text" [(ngModel)]="formData.budget" id="budget" name="budget" class="form-control" aria-label="Budget (Frc CFA)" placeholder="....Frc CFA">
+        </div>
+        
+        <div class="input-group mb-3">
+          <span class="input-group-text">Ville et région</span>
+          <input type="text" [(ngModel)]="formData.ville" id="ville"  name="ville" class="form-control" placeholder="Ouagadougou; zone 1" aria-label="Ville et région">
+        </div>
+        
+        <div class="input-group mb-3">
+          <span class="input-group-text">Date</span>
+          <input type="date" [(ngModel)]="formData.date" id="date" name="date"class="form-control me-3" name="date">
+      
+          <span class="input-group-text">Heure</span>
+          <input type="time" [(ngModel)]="formData.heure" id="heure" name="heure" class="form-control me-3" name="heure">
+        </div>
+      
+        <div class="input-group mb-3">
+          <span class="input-group-text">Description supplémentaire</span>
+          <textarea [(ngModel)]="formData.description" class="form-control" name="description" aria-label="Description supplémentaire"></textarea>
+        </div>
+      
+        <div class="input-group mb-3">
+          <button class="btn btn-primary" (click)="submitForm()" type="button">Confirmer le rendez vous</button>
+        </div>
+    </div>
+</form>
+  
+  

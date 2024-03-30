@@ -1,0 +1,49 @@
+<div class="container"[ngStyle]="{ 'width': isCollapse ? '80px' : '210px' }">
+    <header class="icon">
+        <!-- Marque de navigation -->
+        <div class="icon">
+            <a class="navbar-brand" href="#"><img src="/assets/logo.png" style="height:4em;"></a>
+            <div class="icon-text" [ngStyle]="{ 'opacity': isCollapse ? '0' : '1' }" >
+                <h6>Alisson Cleaning</h6>
+                <h6>services SARL</h6>
+            </div>
+        </div>
+       
+        <button class="button btn open" (click)="isCollapse=!isCollapse"><img src="/assets/icons8-droite-30.png" alt=""></button>
+
+    </header>
+     
+    <!-- Contenu de la barre de navigation -->
+    <div class="menu">
+        <ul class="navbar-nav ms-auto">
+            <!-- Liens de navigation -->
+            <li class="nav-item">
+                <img src="/assets/icons8-accueil-50.png" alt="">
+                <a [ngStyle]="{ 'opacity': isCollapse ? '0' : '1' }"class="nav-link" routerLink="/Acceuil" routerLinkActive="text-info">Acceuil</a>
+            </li>
+            <li class="nav-item">
+                <img src="/assets/icons8-service-50.png" alt="">
+                <a [ngStyle]="{ 'opacity': isCollapse ? '0' : '1' }"class="nav-link" routerLink="/Realisations" routerLinkActive="text-info">services</a>
+            </li>
+            <li class="nav-item">
+                <img src="/assets/icons8-conférence-téléphonique-50.png" alt="">
+                <a [ngStyle]="{ 'opacity': isCollapse ? '0' : '1' }" class="nav-link" routerLink="/Parcours" routerLinkActive="text-info">a propos</a>
+            </li>
+            <li class="nav-item">
+                <img src="/assets/icons8-rappels-de-rendez-vous-50.png" alt="">
+                <a [ngStyle]="{ 'opacity': isCollapse ? '0' : '1' }"class="nav-link" routerLink="/Contact" routerLinkActive="text-info">rendez-vous</a>
+            </li>
+            <li class="nav-item">
+                <img src="/assets/icons8-courrier-50.png" alt="">
+                <a [ngStyle]="{ 'opacity': isCollapse ? '0' : '1' }"class="nav-link" routerLink="/Contact" routerLinkActive="text-info">mails</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="out">
+        <img src="/assets/icons8-sortie-50.png" alt="">
+        <a [ngStyle]="{ 'opacity': isCollapse ? '0' : '1' }" class="nav-link" routerLink="/Contact" routerLinkActive="text-info">deconnection</a>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
